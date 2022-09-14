@@ -65,8 +65,9 @@ public class OrdersManager {
         double maxOrder = 0;
         String customerName = "";
 
-        double orderSum = 0;
+
         for (String name : customersOrders.keySet()) {
+            double orderSum = 0;
             for (Double expense : customersOrders.get(name)) {
                 orderSum += expense;
             }
@@ -74,7 +75,6 @@ public class OrdersManager {
                 maxOrder = orderSum;
                 customerName = name;
             }
-            orderSum = 0;
         }
         return customerName;
     }
@@ -83,8 +83,9 @@ public class OrdersManager {
         ArrayList<String> names = new ArrayList<>(); // Создайте список клиентов с заказами меньше 5000
 
         // Наполните список names
-        double orderSum = 0;
+
         for (String name : customersOrders.keySet()) {
+            double orderSum = 0;
             for (Double order : customersOrders.get(name)) {
                 orderSum += order;
             }
