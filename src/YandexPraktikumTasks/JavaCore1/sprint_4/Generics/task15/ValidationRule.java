@@ -1,4 +1,4 @@
-package YandexPraktikumTasks.JavaCore1.sprint_4.enum_modifiers.task15;
+package YandexPraktikumTasks.JavaCore1.sprint_4.Generics.task15;
 
 // Дополните базовый класс для всех правил валидации
 public abstract class ValidationRule<T> {

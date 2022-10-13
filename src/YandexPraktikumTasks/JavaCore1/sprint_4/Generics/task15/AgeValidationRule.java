@@ -1,4 +1,4 @@
-package YandexPraktikumTasks.JavaCore1.sprint_4.enum_modifiers.task15;
+package YandexPraktikumTasks.JavaCore1.sprint_4.Generics.task15;
 
 // Дополните класс для проверки возраста пользователя
 public class AgeValidationRule extends ValidationRule<Byte> {

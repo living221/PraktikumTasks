@@ -1,4 +1,4 @@
-package YandexPraktikumTasks.JavaCore1.sprint_4.enum_modifiers.task14;
+package YandexPraktikumTasks.JavaCore1.sprint_4.Generics.task14;
 
 public class Practicum {
 

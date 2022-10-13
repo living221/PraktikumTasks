@@ -1,4 +1,4 @@
-package YandexPraktikumTasks.JavaCore1.sprint_4.enum_modifiers.task18;
+package YandexPraktikumTasks.JavaCore1.sprint_4.Generics.task18;
 
 import java.util.ArrayList;
 import java.util.List;
